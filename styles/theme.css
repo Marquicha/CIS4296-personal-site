@@ -1,16 +1,15 @@
 :root {
-    --temple-red-dark: rgb(136, 24, 45);
-    --bs-primary: #88182d;
-    --bs-primary-rgb: 158, 27, 52;
-    --bs-primary-dark: #721426;
-    --bs-primary-dark-rgb: 136, 24, 35;
-
+    --temple-red-dark: #ff6a00;
+    --bs-primary: #ff6a00;
+    --bs-primary-rgb: 204,68,0;
+    --bs-primary-dark: #ff6a00;
+    --bs-primary-dark-rgb: rgba(0, 0, 0, 0.125);
 }
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #88182d;
-    --bs-btn-border-color: #88182d;
+    --bs-btn-bg: #ff6a00;
+    --bs-btn-border-color: #ff6a00;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #721426;
     --bs-btn-hover-border-color: #721426;
@@ -25,7 +24,7 @@
 }
 
 .navbar {
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-active-color: #ff6a00;
     --bs-navbar-padding-x: 0.1rem;
     --bs-navbar-padding-y: 0;
     --bs-navbar-brand-color: white;
